@@ -1,0 +1,3 @@
+stage,version_id,artifact,artifact_sha256,description
+INITIAL PILOT RUBRIC,FB-PILOT-v1,reviewer_guide.pdf; rubric_versions.csv,eca22f9d6e154ef82389e0ecd83a45e31a36b8a1063d13c3903ec1c511c28156,Guide and anchor wording used for the formative check; the guide is a content-equivalent reference copy with a stable publication identifier.
+FINAL RUBRIC,FB-FINAL-v1,rubric_versions.csv; rubric_clarifications.csv,,Final anchor wording and guidance clarifications after the formative check.

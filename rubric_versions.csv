@@ -1,0 +1,21 @@
+anchor_id,initial_wording,final_wording,change_type,final_rule_version
+D1-L0,No task-level source limits or data-flow map,No task-level source limits or data-flow map,UNCHANGED ANCHOR,FB-FINAL-v1
+D1-L1,"Boundary-limited input, or broad permissions or policy, without task-level source visibility","Declared request/recipient boundary, or broad source permissions/policy; task-source provenance not required",OPERATIONAL CLARIFICATION,FB-FINAL-v1
+D1-L2,Per-task source scoping with visible active sources,Per-task source scoping with visible active sources,UNCHANGED ANCHOR,FB-FINAL-v1
+D1-L3,"Enforced minimization with provenance logs, redaction, and denied-source evidence","Enforced minimization with provenance logs, redaction, and denied-source evidence",UNCHANGED ANCHOR,FB-FINAL-v1
+D2-L0,Cross-domain retrieval or profiling unconstrained,Cross-domain retrieval or profiling unconstrained,UNCHANGED ANCHOR,FB-FINAL-v1
+D2-L1,Coarse recipient/access constraint or general safety language without task-specific flow or inference limits,Coarse principal/recipient access constraint or general safety statement; task-specific limits not required,OPERATIONAL CLARIFICATION,FB-FINAL-v1
+D2-L2,"Domain labels, retrieval budgets, and sensitive-output checks","Domain labels, retrieval budgets, and sensitive-output checks",UNCHANGED ANCHOR,FB-FINAL-v1
+D2-L3,Default denial for cross-domain use; tested suppression of unnecessary sensitive inferences,Default denial for cross-domain use; tested suppression of unnecessary sensitive inferences,UNCHANGED ANCHOR,FB-FINAL-v1
+D3-L0,Durable state invisible or undefined,Durable state invisible or undefined,UNCHANGED ANCHOR,FB-FINAL-v1
+D3-L1,State identified but retention/deletion governance unspecified; reset/delete control or broad non-retention claim only,"Identified state, reset/delete control, or broad non-retention claim; detailed retention/deletion rules not required",OPERATIONAL CLARIFICATION,FB-FINAL-v1
+D3-L2,"State inventory with retention classes, or a specified non-creation/non-retention path","State inventory with retention classes, or a specified non-creation/non-retention path",UNCHANGED ANCHOR,FB-FINAL-v1
+D3-L3,"Enforced non-creation or promotion gates, deletion propagation to summaries/embeddings/indexes, and retention audits","Enforced non-creation or promotion gates, deletion propagation to summaries/embeddings/indexes, and retention audits",UNCHANGED ANCHOR,FB-FINAL-v1
+D4-L0,Tool calls or remote routing hidden,Tool calls or remote routing hidden,UNCHANGED ANCHOR,FB-FINAL-v1
+D4-L1,Confirmation or policy notice without provenance,User/admin confirmation or delivered policy notice for the declared action/route; provenance not required,OPERATIONAL CLARIFICATION,FB-FINAL-v1
+D4-L2,"Runtime notice for tool use, fallback, and sensitive source influence","Runtime notice for tool use, fallback, and sensitive source influence",UNCHANGED ANCHOR,FB-FINAL-v1
+D4-L3,Policy broker blocks out-of-scope disclosure and keeps auditable tool/fallback logs,Policy broker blocks out-of-scope disclosure and keeps auditable tool/fallback logs,UNCHANGED ANCHOR,FB-FINAL-v1
+D5-L0,"No audit trail, recourse, or update review","No audit trail, recourse, or update review",UNCHANGED ANCHOR,FB-FINAL-v1
+D5-L1,High-level accountability commitments,Explicit accountability undertaking by a named owner for this capability,ADDED CRITERION,FB-FINAL-v1
+D5-L2,"Feature-level logs, review gates, and user/admin recourse","Feature-level logs, review gates, and user/admin recourse",UNCHANGED ANCHOR,FB-FINAL-v1
+D5-L3,"Independent review, regression tests after updates, documented rollback, and contestability","Independent review, regression tests after updates, documented rollback, and contestability",UNCHANGED ANCHOR,FB-FINAL-v1
